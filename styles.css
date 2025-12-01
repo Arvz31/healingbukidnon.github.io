@@ -316,27 +316,26 @@ body {
   box-sizing: border-box;
 }
 
-
 .navbar-logo {
-  height: 86px;                        
-  width: 86px;
+  height: 95px;
+  width: 95px;
   border-radius: 50%;
   object-fit: cover;
-  margin-right: 34px;
   background: #14a307;
   box-shadow: 0 2px 16px #17e94462;
   transition: filter 0.15s, transform 0.15s;
   display: block;
   flex-shrink: 0;
+  position: relative;               
 }
 
 .navbar-links {
   display: flex;
   align-items: center;
-  gap: 20px;              
-  flex: 1 1 auto;
-  justify-content: flex-end;
+  gap: 20px;
+  margin-left: auto;       
   height: 100%;
+  position: relative;                 
 }
 
 .navbar-links a {
@@ -1907,4 +1906,5 @@ body {
   border-color: #1a7a44;
   transform: translateY(-4px);
   box-shadow: 0 8px 24px rgba(26, 122, 68, 0.25);
+
 }
