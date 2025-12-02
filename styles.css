@@ -317,10 +317,9 @@ body {
 }
 
 .navbar-logo {
-  height: 110px;
-  width: 110px;
+  height: 100px;
+  width: 100px;
   object-fit: cover;
-  box-shadow: 0 2px 16px #17e94462;
   transition: filter 0.15s, transform 0.15s;
   display: block;
   flex-shrink: 0;
@@ -1906,6 +1905,7 @@ body {
   box-shadow: 0 8px 24px rgba(26, 122, 68, 0.25);
 
 }
+
 
 
 
