@@ -317,9 +317,8 @@ body {
 }
 
 .navbar-logo {
-  height: 95px;
-  width: 95px;
-  border-radius: 50%;
+  height: 100px;
+  width: 100px;
   object-fit: cover;
   background: #14a307;
   box-shadow: 0 2px 16px #17e94462;
@@ -1906,4 +1905,5 @@ body {
   border-color: #1a7a44;
   transform: translateY(-4px);
   box-shadow: 0 8px 24px rgba(26, 122, 68, 0.25);
+
 }
